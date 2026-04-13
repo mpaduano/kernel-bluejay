@@ -165,7 +165,7 @@ jobs:
           cat .config
         
       - name: Install build dependencies
-        run: sudo apt-get update && sudo apt-get install -y libelf-dev
+        run: sudo apt-get update && sudo apt-get install -y libelf-dev dwarves
 
       - name: "🎶 Build kernel"
         working-directory: ./${{ env.kernelDir }}/${{ env.kernelName }}
