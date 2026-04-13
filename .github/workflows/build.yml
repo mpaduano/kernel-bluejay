@@ -163,6 +163,9 @@ jobs:
           echo "CONFIG_OF_CONFIGFS=y" >> .config
           echo "CONFIG_OF_OVERLAY=y" >> .config
           cat .config
+        
+      - name: Install build dependencies
+        run: sudo apt-get update && sudo apt-get install -y libelf-dev
 
       - name: "🎶 Build kernel"
         working-directory: ./${{ env.kernelDir }}/${{ env.kernelName }}
