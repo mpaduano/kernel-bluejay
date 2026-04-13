@@ -5,7 +5,7 @@
       "branch": "Android16",
       "device": "Bluejay-Pixel6a"
     },
-    "withKernelSU": true,
+    "withKernelSU": false,
     "toolchains": [
       {
         "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
