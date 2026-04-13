@@ -1,9 +1,9 @@
 [  {
     "kernelSource": {
       "name": "Pixel6a",
-      "repo": "https://android.googlesource.com/kernel/common/+/refs/tags/android14-6.1-2025-01_r27",
-      "branch": "Android16",
-      "device": "Bluejay-Pixel6a"
+      "repo": "https://android.googlesource.com/kernel/common",
+      "branch": "android-gs-bluejay-6.1-android16",
+      "device": "bluejay"
     },
     "withKernelSU": false,
     "toolchains": [
