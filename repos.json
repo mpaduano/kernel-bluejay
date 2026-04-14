@@ -29,6 +29,13 @@
     },
     "extraParams": {
       "KEEP": ""
-    }
-  }
+     }
+    },
+    "AnyKernel3": {
+      "use": true,
+      "release": true,
+      "repo": "https://github.com/Reinazhard/AnyKernel3",
+      "branch": "raviole"
+    } 
+}
 ]
