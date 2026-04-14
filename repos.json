@@ -30,7 +30,7 @@
     "extraParams": {
       "KEEP": ""
      }
-    },
+    }
     "AnyKernel3": {
       "use": true,
       "release": true,
