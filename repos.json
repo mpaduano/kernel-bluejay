@@ -1,9 +1,9 @@
 [  {
     "kernelSource": {
-      "name": "Pixel6a",
-      "repo": "https://android.googlesource.com/kernel/common",
-      "branch": "android-gs-bluejay-6.1-android16",
-      "device": "gki"
+      "name": "akita",
+      "repo": "https://github.com/mpaduano/device_google_akita-kernels",
+      "branch": "16",
+      "device": "akita"
     },
     "withKernelSU": false,
     "toolchains": [
