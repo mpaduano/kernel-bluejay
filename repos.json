@@ -1,11 +1,11 @@
 [  {
     "kernelSource": {
       "name": "Pixel6a",
-      "repo": "https://android.googlesource.com/kernel/common",
-      "branch": "android-gs-bluejay-6.1-android16",
-      "device": "gki"
+      "repo": "https://github.com/LineageOS/android_kernel_google_gs-6.1_manifest",
+      "branch": "lineage-23.2",
+      "device": "bluejay"
     },
-    "withKernelSU": false,
+    "withKernelSU": true,
     "toolchains": [
       {
         "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
